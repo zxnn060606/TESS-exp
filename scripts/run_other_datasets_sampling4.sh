@@ -14,7 +14,7 @@ set -euo pipefail
 #   DATASETS="bitcoin electricity environment" NUM_SAMPLES=4 OVERWRITE=0 bash scripts/run_other_datasets_sampling4.sh
 
 DATA_ROOT="${DATA_ROOT:-/home/user_home/hyh/workspace/TESS-RC2}"
-DATASETS="${DATASETS:-bitcoin electricity environment}"
+DATASETS="${DATASETS:-fnspid bitcoin electricity environment}"
 
 PRIMITIVES="${PRIMITIVES:-distribution_shift volatility shape temporal_influence}"
 SPLITS="${SPLITS:-train vali test}"
