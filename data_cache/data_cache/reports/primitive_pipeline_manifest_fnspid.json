@@ -1,0 +1,111 @@
+{
+  "dataset": "fnspid",
+  "splits": [
+    "train",
+    "vali",
+    "test"
+  ],
+  "primitives": [
+    "distribution_shift",
+    "volatility",
+    "shape",
+    "temporal_influence"
+  ],
+  "stages": [
+    "gt"
+  ],
+  "backend": "mock",
+  "prompt_source": "auto",
+  "num_samples": 8,
+  "limit": null,
+  "seed": 42,
+  "overwrite": true,
+  "start_time": "2026-06-01T15:22:37.688903+00:00",
+  "end_time": "2026-06-01T15:22:39.744148+00:00",
+  "duration_seconds": 2.0552644819254056,
+  "created_or_updated_paths": [
+    "data_cache/gt_primitive/fnspid/train.json",
+    "data_cache/gt_primitive/fnspid/vali.json",
+    "data_cache/gt_primitive/fnspid/test.json",
+    "data_cache/gt_primitive/fnspid/metadata.json",
+    "data_cache/reports/gt_distribution_shift_fnspid.json",
+    "data_cache/gt_primitive/fnspid/train.json",
+    "data_cache/gt_primitive/fnspid/vali.json",
+    "data_cache/gt_primitive/fnspid/test.json",
+    "data_cache/gt_primitive/fnspid/metadata.json",
+    "data_cache/reports/gt_volatility_fnspid.json",
+    "data_cache/gt_primitive/fnspid/train.json",
+    "data_cache/gt_primitive/fnspid/vali.json",
+    "data_cache/gt_primitive/fnspid/test.json",
+    "data_cache/gt_primitive/fnspid/metadata.json",
+    "data_cache/reports/gt_shape_fnspid.json",
+    "data_cache/gt_primitive/fnspid/train.json",
+    "data_cache/gt_primitive/fnspid/vali.json",
+    "data_cache/gt_primitive/fnspid/test.json",
+    "data_cache/gt_primitive/fnspid/metadata.json",
+    "data_cache/reports/gt_temporal_influence_fnspid.json"
+  ],
+  "stage_statuses": [
+    {
+      "stage": "gt",
+      "status": "completed",
+      "paths": [
+        "data_cache/gt_primitive/fnspid/train.json",
+        "data_cache/gt_primitive/fnspid/vali.json",
+        "data_cache/gt_primitive/fnspid/test.json",
+        "data_cache/gt_primitive/fnspid/metadata.json",
+        "data_cache/reports/gt_distribution_shift_fnspid.json"
+      ],
+      "detail": {
+        "primitive": "distribution_shift"
+      }
+    },
+    {
+      "stage": "gt",
+      "status": "completed",
+      "paths": [
+        "data_cache/gt_primitive/fnspid/train.json",
+        "data_cache/gt_primitive/fnspid/vali.json",
+        "data_cache/gt_primitive/fnspid/test.json",
+        "data_cache/gt_primitive/fnspid/metadata.json",
+        "data_cache/reports/gt_volatility_fnspid.json"
+      ],
+      "detail": {
+        "primitive": "volatility"
+      }
+    },
+    {
+      "stage": "gt",
+      "status": "completed",
+      "paths": [
+        "data_cache/gt_primitive/fnspid/train.json",
+        "data_cache/gt_primitive/fnspid/vali.json",
+        "data_cache/gt_primitive/fnspid/test.json",
+        "data_cache/gt_primitive/fnspid/metadata.json",
+        "data_cache/reports/gt_shape_fnspid.json"
+      ],
+      "detail": {
+        "primitive": "shape"
+      }
+    },
+    {
+      "stage": "gt",
+      "status": "completed",
+      "paths": [
+        "data_cache/gt_primitive/fnspid/train.json",
+        "data_cache/gt_primitive/fnspid/vali.json",
+        "data_cache/gt_primitive/fnspid/test.json",
+        "data_cache/gt_primitive/fnspid/metadata.json",
+        "data_cache/reports/gt_temporal_influence_fnspid.json"
+      ],
+      "detail": {
+        "primitive": "temporal_influence"
+      }
+    }
+  ],
+  "skipped_stages_or_files": [],
+  "environment_note": {
+    "conda_default_env": "vllm0102",
+    "python_executable": "/home/user_home/hyh/miniconda3/envs/vllm0102/bin/python"
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "dataset": "fnspid",
+  "splits": [
+    "test"
+  ],
+  "primitives": [
+    "distribution_shift",
+    "volatility",
+    "shape",
+    "temporal_influence"
+  ],
+  "primitive_order": [
+    "distribution_shift",
+    "volatility",
+    "shape",
+    "temporal_influence"
+  ],
+  "grouped_gate_record_counts": {
+    "test": 1567
+  },
+  "flat_gate_record_counts": {
+    "test": {
+      "distribution_shift": 1567,
+      "volatility": 1567,
+      "shape": 1567,
+      "temporal_influence": 1567
+    }
+  },
+  "flat_gate_audit": {
+    "test": {
+      "distribution_shift": {
+        "record_count": 1567,
+        "num_positive_gate_target": 538,
+        "num_negative_gate_target": 1029,
+        "positive_rate": 0.3433312061263561,
+        "invalid_pred_count": 0,
+        "missing_gt_count": 0,
+        "parse_rate": {
+          "mean": 1.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "self_consistency": {
+          "mean": 0.9783822590938098,
+          "min": 0.5,
+          "max": 1.0
+        },
+        "margin": {
+          "mean": 8.45245576486543,
+          "min": 0.0,
+          "max": 8.987321812850123
+        },
+        "prompt_source_counts": {
+          "fallback": 1567
+        },
+        "backend_counts": {
+          "openai-compatible": 1567
+        },
+        "model_counts": {
+          "qwen3-8b": 1567
+        }
+      },
+      "volatility": {
+        "record_count": 1567,
+        "num_positive_gate_target": 590,
+        "num_negative_gate_target": 977,
+        "positive_rate": 0.3765156349712827,
+        "invalid_pred_count": 0,
+        "missing_gt_count": 0,
+        "parse_rate": {
+          "mean": 1.0,
+          "min": 1.0,
+          "max": 1.0
+        },
+        "self_consistency": {
+          "mean": 0.9842054881940012,
+          "min": 0.5,
+          "max": 1.0
+        },
+        "margin": {
+          "mean": 8.585575603211225,
+          "min": 0.0,
+          "max": 8.987321812850123
+        },
+        "prompt_source_counts": {
+          "fallback": 1567
+        },
+        "backend_counts": {
+          "openai-compatible": 1567
+        },
+        "model_counts": {
+          "qwen3-8b": 1567
+        }
+      },
+      "shape": {
+        "record_count": 1567,
+        "num_positive_gate_target": 442,
+        "num_negative_gate_target": 1125,
+        "positive_rate": 0.2820676451818762,
+        "invalid_pred_count": 0,
+        "missing_gt_count": 0,
+        "parse_rate": {
+          "mean": 0.9997606892150607,
+          "min": 0.625,
+          "max": 1.0
+        },
+        "self_consistency": {
+          "mean": 0.9890236119974474,
+          "min": 0.5,
+          "max": 1.0
+        },
+        "margin": {
+          "mean": 8.685831645203338,
+          "min": 0.0,
+          "max": 8.987321812850123
+        },
+        "prompt_source_counts": {
+          "fallback": 1567
+        },
+        "backend_counts": {
+          "openai-compatible": 1567
+        },
+        "model_counts": {
+          "qwen3-8b": 1567
+        }
+      },
+      "temporal_influence": {
+        "record_count": 1567,
+        "num_positive_gate_target": 621,
+        "num_negative_gate_target": 946,
+        "positive_rate": 0.39629865985960433,
+        "invalid_pred_count": 2,
+        "missing_gt_count": 0,
+        "parse_rate": {
+          "mean": 0.9980057434588385,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "self_consistency": {
+          "mean": 0.9718676877260156,
+          "min": 0.0,
+          "max": 1.0
+        },
+        "margin": {
+          "mean": 8.271435187638646,
+          "min": 0.0,
+          "max": 8.987321812850123
+        },
+        "prompt_source_counts": {
+          "fallback": 1567
+        },
+        "backend_counts": {
+          "openai-compatible": 1567
+        },
+        "model_counts": {
+          "qwen3-8b": 1567
+        }
+      }
+    }
+  },
+  "gt_metadata_contains_all_primitives": true
+}

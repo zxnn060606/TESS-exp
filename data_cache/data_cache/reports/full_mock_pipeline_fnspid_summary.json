@@ -1,0 +1,128 @@
+{
+  "dataset": "fnspid",
+  "backend": "mock",
+  "num_samples": 8,
+  "splits": [
+    "train",
+    "vali",
+    "test"
+  ],
+  "primitives": [
+    "distribution_shift",
+    "volatility",
+    "shape",
+    "temporal_influence"
+  ],
+  "raw_split_counts": {
+    "train": 6842,
+    "vali": 1424,
+    "test": 1567
+  },
+  "grouped_gate_counts": {
+    "train": 6842,
+    "vali": 1424,
+    "test": 1567
+  },
+  "flat_gate_counts": {
+    "train": {
+      "distribution_shift": 6842,
+      "volatility": 6842,
+      "shape": 6842,
+      "temporal_influence": 6842
+    },
+    "vali": {
+      "distribution_shift": 1424,
+      "volatility": 1424,
+      "shape": 1424,
+      "temporal_influence": 1424
+    },
+    "test": {
+      "distribution_shift": 1567,
+      "volatility": 1567,
+      "shape": 1567,
+      "temporal_influence": 1567
+    }
+  },
+  "positive_rate": {
+    "train": {
+      "distribution_shift": 0.198626132709734,
+      "volatility": 0.322858813212511,
+      "shape": 0.20359543992984508,
+      "temporal_influence": 0.33177433498976905
+    },
+    "vali": {
+      "distribution_shift": 0.2127808988764045,
+      "volatility": 0.3181179775280899,
+      "shape": 0.17907303370786518,
+      "temporal_influence": 0.34901685393258425
+    },
+    "test": {
+      "distribution_shift": 0.196553924696873,
+      "volatility": 0.3241863433312061,
+      "shape": 0.19017230376515634,
+      "temporal_influence": 0.34205488194001277
+    }
+  },
+  "parse_rate_mean": {
+    "train": {
+      "distribution_shift": 1.0,
+      "volatility": 1.0,
+      "shape": 1.0,
+      "temporal_influence": 1.0
+    },
+    "vali": {
+      "distribution_shift": 1.0,
+      "volatility": 1.0,
+      "shape": 1.0,
+      "temporal_influence": 1.0
+    },
+    "test": {
+      "distribution_shift": 1.0,
+      "volatility": 1.0,
+      "shape": 1.0,
+      "temporal_influence": 1.0
+    }
+  },
+  "self_consistency_mean": {
+    "train": {
+      "distribution_shift": 0.39652148494592226,
+      "volatility": 0.5093905290850629,
+      "shape": 0.3963022508038585,
+      "temporal_influence": 0.5096645717626425
+    },
+    "vali": {
+      "distribution_shift": 0.39325842696629215,
+      "volatility": 0.5122893258426966,
+      "shape": 0.40115870786516855,
+      "temporal_influence": 0.511499297752809
+    },
+    "test": {
+      "distribution_shift": 0.4036375239310785,
+      "volatility": 0.5107689853222719,
+      "shape": 0.3970165922144225,
+      "temporal_influence": 0.5101308232291002
+    }
+  },
+  "margin_mean": {
+    "train": {
+      "distribution_shift": 0.3881038111332236,
+      "volatility": 0.46853804803467897,
+      "shape": 0.38975165414658,
+      "temporal_influence": 0.463513301496436
+    },
+    "vali": {
+      "distribution_shift": 0.3786999265580261,
+      "volatility": 0.4760956367534538,
+      "shape": 0.41237905048358864,
+      "temporal_influence": 0.46717913242051695
+    },
+    "test": {
+      "distribution_shift": 0.40093141059654414,
+      "volatility": 0.4699465699699809,
+      "shape": 0.39180054329965497,
+      "temporal_influence": 0.4698813078287157
+    }
+  },
+  "duration_seconds": 10.384393869999712,
+  "note": "Mock backend validation report; gate positive rates are not model-quality estimates."
+}

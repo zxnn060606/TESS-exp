@@ -1,0 +1,2902 @@
+[
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 0,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology's strong quarterly liquidity of $14 billion and projected non-GAAP gross margin of 46% likely bolstered investor confidence in its financial stability, while the $477 million inflow into XLK (where MU is a key component) may have driven immediate ETF-related demand. The company's strategic expansion plans to meet memory-chip demand, despite delayed factory construction, reinforced long-term growth prospects but could introduce short-term execution concerns. Additionally, research reports highlighting MU's exposure to growing memory-chip demand further supported bullish sentiment.  In summary, these events may lead to an initial price rise due to financial optimism and ETF inflows, followed by increased volatility as delayed expansion plans weigh on sentiment, resulting in early gains, midweek declines, and late-week stabilization.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 1,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Micron Technology's announcement to shut its DRAM chip designing operations in Shanghai may lead to near-term operational disruptions and geopolitical risks, negatively impacting investor sentiment. The departure of Micron's CFO to Intel raises concerns about financial strategy execution, adding leadership uncertainty. Additionally, the Taiwan Intellectual Property Court's ruling on UMC's case tied to Micron could alleviate legal overhang, providing a positive counterbalance to other negative news.  In summary, these events suggest increased volatility with an initial decline due to operational and leadership concerns, followed by a potential partial recovery as legal uncertainties ease, leading to mixed short-term price movements.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 2,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Micron (MU) gained 7.1% amid positive semiconductor sector sentiment due to potential de-escalation in Ukraine and strong profit growth predictions, likely fueling short-term bullish momentum. However, exceptionally high put option volume (58.7% of average daily trading volume) signals heightened bearish hedging activity, which may pressure the stock. Rising PC demand and Micron’s growing DRAM market influence provide counterbalancing positive catalysts for near-term revenue visibility and long-term confidence.  In summary, these events suggest **increased volatility**, with an initial rise due to sector optimism and demand growth, followed by a decline from bearish hedging pressure, and eventual stabilization as underlying fundamentals partially offset short-term skepticism.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 3,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology's strategic position as one of only three major DRAM producers reinforces its competitive advantage in a high-demand market, likely supporting positive sentiment. However, the unusually high options trading volume (44.6% of average daily volume) signals bearish speculation or hedging, which may pressure the stock in the short term. Additionally, the low PEG ratio (0.4) suggests undervaluation relative to growth expectations, potentially attracting value-oriented buyers.  In summary, these events may lead to initial downward pressure from speculative activity, followed by a potential rebound due to undervaluation and strategic positioning, resulting in increased volatility with mixed price movements over the next five trading days.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 4,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology experienced a surge of nearly 9% alongside a 3.8% jump in the Philadelphia Semiconductor Index, reflecting strong sector-wide momentum and investor optimism about semiconductor demand. High options trading volume (164,312 contracts) signaled heightened speculative interest, which often precedes short-term upward price pressure. However, shares fell 4.5% amid broad semiconductor declines despite no direct negative catalysts, indicating sector-driven risk aversion unrelated to company-specific fundamentals.  In summary, these events suggest increased volatility with an initial decline due to sector-wide sell-offs, potentially followed by a partial rebound driven by speculative activity and underlying demand optimism, leading to mixed short-term price movements.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 5,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Micron Technology’s stock crossed below its 200-day moving average ($79.89), triggering bearish technical signals, while simultaneously being among the worst-performing sector stocks with a 5.7% midday loss, reflecting broad sector-driven selling pressure. The Ukraine crisis’s threat to semiconductor supply chains (neon, palladium shortages) introduced immediate negative sentiment, counterbalanced by positive news of Micron’s leadership in 176-layer NAND/1-alpha DRAM tech and a Growth Score of A (Zacks Rank #2), which may attract short-term investor confidence. Additionally, the stock’s declined price-to-sales multiple (3x) highlighted improved valuation appeal, creating mixed signals between technical weakness and fundamental strength.  In summary, these events suggest a decline in the immediate days due to technical and sector pressures, followed by a rebound driven by valuation appeal and growth optimism, resulting in increased volatility with midweek recovery and late-stage stabilization.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 6,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology (MU) faced mixed short-term influences, including a COVID-19-related lockdown in Shenzhen raising chip shortage concerns (negative), an analyst upgrade to Outperform driving an 8% intraday surge (positive), and CEO testimony on semiconductor subsidies bolstering optimism (positive). Additionally, strong fiscal Q1 earnings (33% YoY revenue growth) reinforced confidence, while operational disruptions in China due to COVID-19 surges introduced uncertainty (negative). Bernstein’s prediction of a DRAM cycle bottoming eased near-term supply fears (positive).  In summary, these events may lead to **increased volatility**, with an initial decline due to operational risks, followed by intermittent rebounds from positive analyst sentiment and earnings strength, and potential midweek pressure from lingering supply concerns, resulting in uneven price movements.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 7,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology's upcoming fiscal Q2 2022 earnings report (March 29) and bullish analyst projections (47.7% earnings surge, Zacks Rank #2) likely fueled short-term investor optimism, while CEO advocacy for $52B semiconductor subsidies reinforced sector tailwinds. However, near-term supply constraints for integrated circuit components introduced revenue concerns, creating a counterbalancing negative pressure. These mixed signals—strong growth expectations versus supply chain risks—suggest competing influences on sentiment.  In summary, the stock may experience a temporary rise due to earnings anticipation and sector optimism, followed by increased volatility as supply chain concerns weigh on gains, leading to uneven price movements with potential midweek pullbacks and late-week stabilization.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 8,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology reported overwhelmingly positive Q2 fiscal 2022 results, including record revenue and robust profitability expectations, which likely bolstered investor confidence in the near term. The appointment of Mark Murphy as CFO and better-than-expected guidance further reinforced optimism around financial leadership and earnings momentum, while rapid growth in automotive memory demand signaled expansion into high-growth markets. However, despite these positive catalysts, the stock's recent decline suggests potential short-term profit-taking or sector-wide pressure may temper immediate gains.  In summary, these events may lead to initial price stabilization or a modest rebound due to strong earnings and guidance, followed by increased volatility as investors weigh growth potential against broader market conditions, resulting in mixed movements over the next five trading days.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 9,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Micron Technology (MU) benefited from positive sector sentiment due to TSM's strong monthly report and its inclusion among XLK holdings with notable upside potential, reinforcing optimism about semiconductor demand and price growth. However, rising long-term interest rates and the Fed's plan to raise rates by 50 basis points introduced macroeconomic pressures, likely compressing sector valuations. These conflicting signals—sector strength versus monetary tightening—created a mixed short-term outlook.  In summary, the stock may experience increased volatility with an initial rise due to sector optimism, followed by a decline as interest rate concerns weigh on investor sentiment, leading to uneven price movements over the five-day period.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 10,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology's favorable NAND and DRAM product mix news and debt reduction strategy may initially bolster investor confidence, supporting a potential short-term price rise. However, the high options trading volume with notable $70 strike put activity suggests heightened bearish sentiment or hedging, likely introducing downward pressure. These conflicting signals—positive fundamentals versus speculative bearish activity—could lead to mixed reactions in the market.  In summary, these events may result in increased volatility, with an initial decline driven by options activity, followed by partial recovery as positive financial health and product mix news temper losses, creating uneven price movements over the next five trading days.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 11,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology was highlighted as undervalued compared to peers like Nvidia, which may attract value investors seeking short-term opportunities, while increasing demand for memory chips and strong performance in its Mobile Business Unit could drive immediate bullish sentiment. Additionally, Micron's participation in India's semiconductor investment summit, coupled with government incentives, signals potential expansion in a key growth market, further reinforcing positive investor outlook. These factors collectively suggest strong fundamental and sector-specific tailwinds.  In summary, these events are expected to lead to a temporary rise in the stock's adjusted price due to heightened investor optimism around undervaluation, memory chip demand, and strategic expansion, likely resulting in early gains followed by moderate fluctuations as the market digests the news.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 12,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology's Q2 FY22 revenue growth of 25% to $7.8 billion, driven by higher selling prices and strong data center demand, likely bolstered investor confidence in its near-term earnings potential. Additionally, the company's experimentation with forward pricing agreements to stabilize chip price fluctuations may have reduced perceived revenue volatility, while its undervaluation (P/E of 8.3 vs. industry average of 19.4) could attract value-driven buying. The highlight of Micron as a beneficiary of 5G smartphone adoption further reinforced positive sentiment around demand tailwinds for its memory products.  In summary, these events suggest a temporary rise due to strong earnings momentum and undervaluation, followed by increased volatility as investors digest the mixed implications of pricing agreements and sector comparisons, leading to midweek fluctuations and late-week stabilization.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 13,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology's 15% dividend increase announcement likely bolstered short-term investor confidence in cash flow stability and shareholder returns, while Mizuho Securities' bullish analysis on Datacenter and Auto/Industrial growth drivers reinforced optimism around DRAM demand. However, the unusually high put option volume (51.9% of average daily trading volume) suggests bearish hedging or sentiment, potentially countering positive news. The $150 billion manufacturing expansion news, though long-term bullish, may have triggered short-term profit-taking or skepticism around execution risks.  In summary, these events may lead to initial price support from dividend and growth optimism, followed by a brief decline due to bearish options activity, then a recovery as long-term expansion prospects and undervaluation (PEG ratio 0.23) attract value investors, resulting in mixed volatility with midweek pressure and late-week resilience.",
+    "pred_label": "Sustained",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 0,
+      "Sustained": 8
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.9997500937148568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 14,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology's data center business reported 60% year-over-year revenue growth, signaling strong demand and operational performance, which likely bolstered investor confidence. The stock's upgrade to #34 in S&P 500 analyst rankings and its undervaluation relative to earnings growth expectations (8.7x trailing earnings vs. S&P 500's 20x) further reinforced positive sentiment. Additionally, heightened options volume (53.2% of average daily trading volume) suggested speculative interest and short-term bullish positioning.  In summary, these events may lead to an initial price rise due to strong fundamentals and speculative activity, followed by increased volatility as investors digest valuation metrics and sector positioning, potentially resulting in midweek fluctuations and late-week stabilization.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 15,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Piper Sandler's downgrade of Micron to \"underweight\" due to DRAM price declines and high consumer market exposure likely intensified bearish sentiment, while Micron's 7.1% intraday drop and YTD underperformance reinforced negative momentum. The stock's failure to sustain a breakout above $75 may have triggered technical selling, and sector-wide underperformance (1.8% loss) exacerbated downward pressure. However, the low PEG ratio (0.24) could provide some counterbalance by signaling potential undervaluation.  In summary, these events suggest a sharp decline in the immediate days due to downgrade-driven pessimism and technical breakdowns, with increased volatility as undervaluation signals attempt to mitigate losses, leading to sustained downward pressure.",
+    "pred_label": "Sustained",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 0,
+      "Sustained": 8
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.9997500937148568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 16,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology faced heightened bearish speculation due to a surge in $57.50 strike put options expiring June 17, 2022, representing ~914,700 underlying shares, which likely exacerbated downward pressure on the stock. Additionally, a tech sector sell-off driven by recession fears and concerns over slowing smartphone/PC demand contributed to MU's 13.7% week-to-date decline, reflecting near-term demand uncertainty. However, the stock's oversold RSI (28.5) and undervaluation (4.4x P/E) may attract short-term buying interest as technical and fundamental indicators signal potential upside.  In summary, these events suggest a decline in the immediate days due to bearish options activity and sector-wide risk aversion, followed by a potential rebound later in the week as oversold conditions and valuation gaps draw buyer interest, resulting in early weakness and late-stage recovery.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 17,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Micron Technology faced mixed signals from news reports, including a negative outlook from TrendForce regarding DRAM memory price downtrends and lowered analyst price targets due to weakening consumer spending, which could pressure the stock. Conversely, unusually high options trading volume (42.2% of average daily volume) and optimism around the upcoming earnings report (projected YoY earnings growth and $8.70B revenue) may provide short-term bullish momentum. However, persistent supply chain challenges in the memory chip sector, cited as a reason for Micron’s 39% YTD decline, could weigh on sentiment.  In summary, these events may lead to **increased volatility**, with an initial rise fueled by speculative options activity and earnings optimism, followed by a decline as DRAM demand concerns and sector headwinds dominate, resulting in a choppy, downward-trending pattern over the five-day period.",
+    "pred_label": "Sustained",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 3,
+      "Sustained": 5
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.37498438085717856,
+      "Sustained": 0.6248906660002499
+    },
+    "margin": 0.5106923259785365,
+    "self_consistency": 0.625,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 18,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology projected fourth-quarter revenue and profit below market estimates due to weakened demand and geopolitical turmoil, which likely triggered immediate bearish sentiment and analyst downgrades. The CEO's warning of considerable semiconductor demand weakness and supply growth moderation further reinforced negative expectations, while supply constraints for integrated circuit components signaled operational challenges. High post-earnings options trading volume and a sector-wide decline in semiconductor stocks exacerbated the downward pressure on the stock.  In summary, these events suggest a sharp initial decline due to weak guidance and sector-wide sell-offs, followed by partial recovery as investors digest the news, leading to increased volatility with intermittent rebounds amid lingering uncertainty.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 4,
+      "Delayed": 4,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.4999375234287143,
+      "Delayed": 0.4999375234287143,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 0.0,
+    "self_consistency": 0.5,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 19,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technologies issued weak guidance and announced reduced production, reflecting oversupply concerns and weakening consumer demand, which likely dampened near-term investor expectations. Additionally, the company faces headwinds from supply chain pressures, inflationary effects, and cooling demand from consumer electronics customers, further signaling reduced revenue projections. SK Hynix's plan to cut 2023 capital expenditure reinforced broader industry demand contraction fears, adding downward pressure on the stock.  In summary, these events suggest a likely decline in the immediate days due to negative sentiment around guidance and industry conditions, possibly followed by stabilization as the market digests the news, leading to increased short-term volatility with potential late-week recovery attempts.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 20,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Micron (MU) shares rose over 4% due to sector-wide gains in semiconductors, reflecting short-term bullish momentum, but later dropped 4.4% following Federal Reserve Chair Jerome Powell’s hawkish remarks on prolonged tight monetary policy, triggering growth stock sell-offs. The CHIPS Act’s perceived benefits for Micron provided a positive long-term narrative but lacked immediate price impact compared to the Fed-driven macroeconomic shock.     In summary, these events suggest a **decline followed by stabilization**—with an initial drop due to Fed-induced sell-offs, partial recovery from sector momentum, and lingering volatility as investors digest macroeconomic risks versus long-term growth prospects.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 21,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Micron Technology's stock was positively influenced by news highlighting its leadership in DRAM and NAND memory, driven by increased demand from electric vehicles, suggesting growth potential in automotive and industrial markets. Conversely, investor concerns about capital-intensive hardware production versus software-driven chip design led to sector-wide risk aversion, negatively impacting the stock. Additionally, the PEG ratio of 0.74 indicated potential undervaluation, which could attract revaluation interest if growth metrics align with expectations.  In summary, these events may lead to initial upward momentum due to growth optimism, followed by a decline as sector-wide concerns weigh on sentiment, and eventual stabilization as undervaluation signals temper further losses, resulting in mixed short-term movements.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 22,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology faced mixed signals, with positive long-term growth prospects from its new $15 billion manufacturing facility and plans for another U.S. site, but immediate negative pressure from Citigroup’s warning of a severe semiconductor downturn and a 6% drop due to inflation concerns from August CPI data. The conflicting news—capacity expansion versus sector-wide demand contraction and macroeconomic fears—likely created investor uncertainty, overshadowing strategic announcements with near-term risks.  In summary, these events suggest a likely decline in the next few trading days due to sector pessimism and macroeconomic headwinds, potentially stabilizing later as the market digests the long-term growth implications of Micron’s expansion plans, resulting in initial downward pressure followed by reduced volatility.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 23,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Micron Technology Inc. entered oversold territory with an RSI of 29.9, which may attract bullish investors anticipating a rebound, while NVIDIA’s adoption of Micron’s GDDR6X memory could drive positive sentiment due to increased product demand. However, Mizuho’s downgrade to \"neutral\" from \"buy\" may trigger short-term sell-offs due to reduced analyst confidence.  In summary, these events suggest a potential decline initially due to the downgrade, followed by a rebound from oversold conditions and NVIDIA-related optimism, leading to mixed but volatile price movements in the next five trading days.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 24,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology's Q4 earnings report revealed a -40% year-over-year earnings decline and significantly lower Q1 revenue guidance ($4.25B vs. $5.90B expected), which likely intensified investor concerns over weakening profitability and demand deterioration. The $320M subsidy from Japan for advanced memory chip production may provide a short-term positive offset by supporting cost-efficient expansion, but this was outweighed by negative news including a 50% reduction in capital expenditures, declining DRAM prices, and Apple’s iPhone 14 production cuts, all signaling operational contraction and margin pressure. The Zacks Rank downgrade to \"Strong Sell\" further amplified negative sentiment, potentially triggering institutional selling.  In summary, these events suggest a sharp initial decline due to earnings and guidance shocks, followed by volatile swings as the subsidy news temporarily mitigates losses, but persistent demand concerns and analyst downgrades likely drive further downward pressure midweek before partial stabilization.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 25,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. The Biden administration's restrictions on China's semiconductor industry negatively impacted Micron Technology's stock due to reduced sales prospects in a key market, while the same restrictions provided a competitive advantage by limiting rivals' access to advanced equipment, leading to a 4.5% rise. Additionally, concerns over a projected decline in fiscal year earnings compared to 2022 heightened near-term profitability pressures.  In summary, these events suggest increased short-term volatility, with an initial decline due to earnings concerns and China market risks, followed by a temporary rise from perceived competitive advantages, and potential stabilization as the market digests mixed signals.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 3,
+      "Delayed": 5,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.37498438085717856,
+      "Delayed": 0.6248906660002499,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 0.5106923259785365,
+    "self_consistency": 0.625,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 26,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Nancy Pelosi's sale of MU call options at a significant loss may weaken investor confidence due to perceived insider bearishness, while rising Taiwan-China and U.S.-China geopolitical tensions could heighten semiconductor sector risk and supply chain concerns. Conversely, Micron's settlement of a patent dispute with Wi-LAN via a licensing agreement likely alleviates legal overhang and operational risks, providing a positive counterbalance.  In summary, these events may lead to initial price volatility with a potential short-lived rise from the legal resolution, followed by a decline due to geopolitical and insider sentiment pressures, and eventual stabilization as the market digests mixed signals.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 27,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. SK Hynix's reported 60% profit decline and \"unprecedented deterioration\" in the memory chip market likely exacerbated bearish sentiment for Micron, reflecting broader industry weakness. Micron's $100 billion CHIPS Act investment announcement may have provided a counterbalancing positive catalyst, though its long-term nature tempered immediate impact. The shutdown of Micron's Shanghai DRAM R&D center and its sector underperformance (-4.9%) likely compounded short-term negative pressure, while the DRAM supply-demand optimism offered late-week stabilization potential.  In summary, these events suggest an initial decline due to industry headwinds and R&D concerns, followed by midweek volatility as negative sector sentiment clashes with strategic investment optimism, potentially stabilizing later on improved supply-demand expectations.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 28,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology's announcement of shipping samples of its advanced LPDDR5X DRAM chips to smartphone makers likely spurred short-term optimism, reflecting potential technological leadership and revenue growth. However, concurrent news of slowing semiconductor demand from Micron and peers (Qualcomm, AMD) and concerns over Micron's high PEG ratio introduced negative pressure, signaling overvaluation and weakened industry outlook. These mixed signals create a tug-of-war between innovation-driven optimism and sector-wide demand fears.  In summary, these events may lead to initial price gains from the DRAM chip news, followed by volatility as negative industry signals weigh on sentiment, resulting in a fluctuating pattern with potential midweek declines and late-week recovery attempts.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 29,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Micron Technology's PEG ratio of 723.17 signals extreme overvaluation relative to earnings growth expectations, likely triggering investor concerns about unsustainable valuation and prompting short-term selling pressure. Additionally, the company's announcement of cuts to capital spending and chip supply may have further dampened investor confidence, as it suggests reduced production capacity and weaker near-term performance prospects.  In summary, these events are expected to lead to an initial sharp decline due to valuation concerns and spending cuts, followed by continued volatility as the market digests the implications of constrained supply and earnings growth risks.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 30,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology's negative full-year earnings projection (-$0.13 per share) and revenue forecast ($17.77 billion) likely weakened investor confidence in near-term profitability, contributing to downward pressure on the stock. Additionally, warnings about challenges in the chip market and falling computer sales, coupled with anticipated reduced consumer spending on electronics in 2023, reinforced concerns about demand for memory products. The broader decline in semiconductor stocks, despite long-term optimism, further exacerbated near-term bearish sentiment.  In summary, these events suggest a likely decline in the stock's adjusted price over the next few trading days due to weakened investor confidence and sector-wide pressures, potentially followed by partial stabilization as the market digests the negative outlook.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 31,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Micron Technology faced bearish sentiment due to expectations of a year-over-year earnings decline and lower revenues for the quarter, likely pressuring the stock. High-volume put options at the $51 strike signaled heightened hedging activity and downward pressure, exacerbating negative investor sentiment. While reduced competition from YMTC due to U.S. export controls provided a slight positive offset, the dominant narrative remained pessimistic.  In summary, these events suggest a likely decline in the immediate days due to earnings concerns and bearish options activity, possibly followed by minor stabilization as the competitive benefit partially offsets negative momentum, leading to increased short-term volatility.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 32,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology reported a first-quarter fiscal 2023 adjusted loss, missing estimates, and forecast a deeper second-quarter loss, amplifying concerns over declining profitability and prolonged financial strain. The company also announced a 10% workforce reduction and a 20% cut in DRAM/NAND wafer production, signaling operational challenges and margin pressures amid weak memory chip demand. A Zacks downgrade to \"Sell\" further weakened analyst confidence, compounding negative sentiment.  In summary, these events suggest a likely decline in the immediate days due to earnings disappointment and cost-cutting measures, followed by increased volatility as investors digest production cuts and downgrades, potentially leading to midweek stabilization amid oversold conditions.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 33,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology's stock experienced a 6.7% rally following a legal victory against Chinese firms for intellectual property theft, which likely bolstered investor confidence in its competitive positioning in DRAM technology. However, news of a downturn in the cloud infrastructure industry due to reduced customer spending and Micron's sharp investment cuts with SK Hynix signaled sustained industry oversupply and margin pressures, creating negative sentiment. These conflicting signals—positive legal developments versus broader industry weakness—suggest a mixed short-term reaction.  In summary, the stock may see an initial rise due to the legal victory, followed by volatility or partial pullback as investors weigh the negative impact of industry headwinds and investment cuts, leading to a fluctuating but net-positive trend over the next five trading days.",
+    "pred_label": "Sustained",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 3,
+      "Sustained": 5
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.37498438085717856,
+      "Sustained": 0.6248906660002499
+    },
+    "margin": 0.5106923259785365,
+    "self_consistency": 0.625,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 34,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Micron Technology faced negative sentiment due to weakening consumer spending on PCs and smartphones, which is expected to reduce demand for its memory chips, potentially hurting near-term revenue. Additionally, the company's decision to cut production and slow capital spending due to excess inventory signals operational contraction and margin pressure, further dampening investor confidence. These developments suggest a bearish outlook in the short term.  In summary, these events may lead to an initial decline in the stock's adjusted price as investors digest the negative demand and operational news, followed by increased volatility as the market reassesses the impact of production cuts and potential stabilization later in the period.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 35,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology's stock exhibited bullish momentum as it crossed above its 200-day moving average and rallied 5.2% amid positive industry developments, reflecting optimism around AI-driven memory demand and heightened investor visibility due to Zacks.com’s most-searched ranking. However, Intel’s earnings report triggered sector-wide declines, introducing negative sentiment that could offset some of the earlier gains. The unusually high options volume (47.5% of average daily trading) further suggests speculative activity, which may amplify short-term volatility.  In summary, these events may lead to an initial rise due to technical and sector optimism, followed by increased volatility as sector-wide risks and speculative trading influence price movements, resulting in mixed performance over the five-day period.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 36,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Micron Technology's stock declined 3.1% following Samsung's weaker-than-expected Q4 earnings, reflecting competitive pressures and reduced market confidence in near-term profitability. The company also highlighted the worst semiconductor downturn in over a decade, aligning with Gartner’s forecast of a 3.6% global revenue decline, which likely exacerbated concerns about weakened demand and margin compression. Conversely, BlackRock’s 19.48% increase in ownership signaled institutional confidence in long-term recovery, potentially mitigating some downward pressure.  In summary, these events suggest a likely decline in the immediate days due to sector-wide pessimism and competitive headwinds, followed by partial stabilization as institutional accumulation tempers losses, resulting in early weakness, midweek volatility, and late-stage subdued trading.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 37,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Micron Technology Inc. (MU) saw positive momentum from its inclusion in the Vanguard Information Technology ETF (VGT), where ETF creation activity could drive demand for MU shares, potentially lifting prices. Additionally, a firm's 19.48% increase in portfolio allocation to MU signals institutional confidence, which may further bolster short-term buying interest.  In summary, these events suggest a temporary rise due to ETF-driven demand and institutional buying, possibly followed by mild volatility as the market digests the inflow impact, leading to early gains and later stabilization.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 38,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology faces a cyclical decline due to falling PC sales and stalled 5G adoption, which may dampen near-term revenue expectations and investor sentiment, likely exerting downward pressure on the stock. Conversely, the company's high rating under Validea's Acquirer's Multiple Investor model could attract value-oriented buyers, providing some support, while unusually high options trading volume (41% of average daily shares) suggests speculative activity that may introduce short-term volatility.  In summary, these events may lead to an initial decline due to weakened demand outlooks, followed by mixed movements as speculative trading and fundamental valuation signals create competing forces, resulting in a period of heightened volatility with potential partial recovery later in the week.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 39,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology's stock was negatively impacted by the projection of full-year earnings at -$2.09 per share and revenue of $16.4 billion, reflecting persistent profitability concerns, while positive sentiment arose from its high rating under Validea’s Acquirer’s Multiple model and potential benefits from U.S. CHIPS Act subsidies. However, a 3.0% drop amid sector-wide underperformance in Technology & Communications introduced short-term bearish pressure due to broader market weakness. These conflicting signals suggest mixed investor reactions, with value-driven optimism competing against profitability fears and sector drag.  In summary, these events may lead to initial declines due to sector-wide sell-offs and earnings concerns, followed by intermittent rebounds from positive valuation and subsidy news, resulting in increased volatility with alternating downward and upward movements over the next five trading days.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 40,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Micron's positive Earnings ESP (+0.88%) ahead of its Q2 fiscal 2023 report and its top valuation ranking under Validea’s Acquirer’s Multiple model suggest strong investor confidence and potential earnings optimism, likely supporting upward price momentum. Conversely, the unusually large $1.4M block of $70 strike put options (5.06 sigmas above the mean) and heavy trading volume in $70 puts signal significant bearish hedging or speculation, which may pressure prices downward in the near term. The conflicting signals—bullish fundamentals versus bearish options activity—could create heightened short-term volatility as traders weigh competing narratives.  **In summary**, these events may lead to an initial decline due to bearish options positioning, followed by a rebound as earnings optimism gains traction, resulting in increased volatility with mixed directional movements over the five-day period.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 41,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology's planned $100 billion investment in a New York chip factory complex targeting AI and 5G chips likely spurred immediate bullish sentiment due to its long-term growth potential, while the stock crossing above its 200-day moving average ($57.54) may have triggered technical buying. However, the $394 million outflow from the Technology Select Sector SPDR Fund (XLK) could introduce short-term sector-wide pressure, offsetting some optimism. High options trading volume (~43.9% of average equity volume) and a top rating under Validea’s Acquirer’s Multiple model further suggest speculative and fundamental support for upward momentum.  In summary, these events may lead to an initial rise driven by strategic investment and technical signals, followed by mixed reactions due to sector outflows, resulting in increased volatility with intermittent gains and minor pullbacks over the next five trading days.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 42,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Micron Technology faced multiple negative short-term events, including a cybersecurity review by China (causing a 4.4% decline), a worse-than-expected Q2 gross margin due to $1.43B inventory writedowns, and bearish sentiment from a large Put options purchase (5.55 sigma premium). The ex-dividend date adjustment and sector-wide investment cuts by rivals further pressured the stock.  In summary, these events suggest a likely **sharp initial decline** due to regulatory and earnings shocks, followed by **increased volatility** as investors digest the combined impact of bearish sentiment and sector headwinds, potentially stabilizing later in the week.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 43,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Micron Technology benefited from Samsung Electronics' announcement to cut chip production, which reduced industry supply and drove MU shares up 7.8%-8.5%, supported by Citi analysts' prediction of a DRAM market recovery. Additionally, unusually high call option volume for the $67 strike reflected speculative bullish sentiment, while Validea’s strong fundamental rating and Micron’s suggestion of peaking inventories signaled improving supply-demand dynamics. These factors collectively reinforced near-term optimism around MU’s performance.  In summary, the positive news flow may lead to an initial price surge due to supply constraints and speculative interest, followed by potential volatility as investors reassess the sustainability of the rally, resulting in mixed movements with early gains and later fluctuations.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 44,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "- The news highlights Prologis' high PEG ratio of 4.1, signaling potential overvaluation relative to earnings growth expectations, which may dampen investor sentiment in the short term. Additionally, the stock's 0.5% decline in a recent trading session reflects underperformance relative to sector peers, likely exacerbating near-term pressure.  In summary, these events suggest a possible initial decline due to overvaluation concerns and sector underperformance, followed by stabilization as the market digests the news, leading to mixed but subdued price movements in the following days.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 45,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "ProLogis (PLD) reported Q4 2021 adjusted earnings of $1.12 per share, significantly surpassing the $0.60 analyst estimate, which likely bolstered investor confidence in its earnings growth. Additionally, the company exceeded FFO expectations ($1.12 vs. $1.10 consensus) and provided strong 2022 net earnings guidance ($4.40-$4.55 vs. $2.31 consensus), reinforcing optimism about future profitability. These positive earnings surprises and upward revisions typically trigger short-term bullish sentiment.  In summary, the strong earnings and guidance may lead to an initial price surge due to positive sentiment, followed by potential profit-taking or volatility as the market digests the news, resulting in mixed movements across the next five trading days.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 46,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "The key short-term event impacting Prologis (PLD) is the upgrade to a Zacks Rank #1 (Strong Buy) alongside a 5% rise in the Zacks Consensus Estimate for current-year earnings, signaling improved earnings expectations and bullish analyst sentiment. This news is likely to bolster investor confidence, particularly given the stock's recent price fluctuations, and may attract short-term buying interest.  In summary, the positive earnings revision and strong buy rating could drive a temporary rise in the adjusted price due to heightened bullish sentiment, potentially followed by mild volatility as the market digests the news, leading to mixed but overall supportive near-term price action.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 47,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Prologis Inc. (PLD) was added to the Focus List as a #1 (Strong Buy) stock with a 2% average earnings surprise, likely boosting short-term investor confidence. The CEO's emphasis on sustained high demand for its global industrial portfolio and future rent hikes reinforced expectations of revenue growth, while its alignment with e-commerce and grocery delivery trends further strengthened its strategic outlook. Additionally, steady Q4 earnings and leadership in e-commerce warehouse dominance highlighted operational strength and sector resilience.  In summary, these events may lead to an initial price rise due to strong buy sentiment and earnings optimism, followed by increased volatility as investors digest the mixed implications of sustained demand and broader market reactions, potentially resulting in early gains and midweek fluctuations.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 48,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Prologis, Inc. (PLD) reported better-than-expected Q4 2021 core FFO per share ($1.12), reflecting strong operational performance due to low vacancies and rental revenue growth, which likely bolstered short-term investor confidence. However, news of significant incremental investment requirements to improve financial metrics may have raised concerns about capital allocation risks, tempering optimism. Additionally, the announcement of robust dividend growth alongside peer First Industrial signaled sustained income appeal but did not fully offset the negative sentiment around expansion risks.  In summary, these events suggest a likely decline in the immediate days due to investor caution around capital allocation, followed by minor fluctuations as dividend stability partially mitigates concerns, leading to continued downward pressure with intermittent stabilization.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 49,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis appointed a new CFO with strong real estate and capital markets expertise, likely boosting investor confidence in financial management, while its Q4 2021 core FFO beat estimates, reinforcing positive operational performance. The stock's oversold RSI reading (29.9) suggested potential for a short-term rebound, and its inflation-resistant appeal as an e-commerce warehouse leader may have attracted hedging demand. In summary, these events may lead to initial price stabilization or modest gains from oversold conditions and strong fundamentals, followed by increased volatility as investors digest the CFO transition and FFO results, potentially resulting in mixed daily movements with a late-week upward bias.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 7,
+      "Delayed": 1,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.8747969511433212,
+      "Delayed": 0.1250780957141072,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 1.9450534956619772,
+    "self_consistency": 0.875,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 50,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis (PLD) reported strong Q4 2021 core FFO per share of $1.12, beating estimates due to low vacancies and rental growth, which likely reinforced investor confidence in its operational strength. Additionally, the company announced a 25% annualized dividend increase to $3.16 per share, enhancing shareholder yield attractiveness, while analysts projected a 13.65% upside to $161.80/share, further supporting bullish sentiment. The news of a $1.2 billion income opportunity from expiring leases and capturing market rental rates also highlighted near-term income growth potential.  In summary, these events suggest a likely temporary rise in the stock’s adjusted price due to strong earnings, dividend optimism, and analyst upgrades, potentially followed by mild fluctuations as the market digests the positive news, resulting in early gains and midweek consolidation.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 51,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "The news highlights multiple upward revisions to the Zacks Consensus Estimate for PLD’s 2022 FFO per share (2.9%, 1.8%, and 1.2%), signaling improving earnings expectations and analyst confidence, which typically bolster investor sentiment. Additionally, Prologis being named a Top 25 Dividend Giant with a 2.11% yield and strong dividend growth rates enhances its attractiveness to income-focused investors, supporting near-term demand. These positive catalysts are likely to outweigh any minor fluctuations, though the market may digest the updates in stages.  In summary, these events suggest a temporary rise due to improved earnings projections and dividend appeal, potentially followed by mild consolidation as the market absorbs the news, leading to mixed but overall positive short-term price movement.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 52,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis' participation in the Citi 2022 Global Property CEO Conference likely boosted investor visibility and strategic engagement, while the news of 55.1 million square feet of leases commenced signaled operational strength and cash flow stability, both supporting positive sentiment. However, the elevated PEG ratio of 3.66 may have raised short-term concerns about growth sustainability, tempering some optimism. The strong rally of 13.3% in six months and heightened e-commerce-driven demand for industrial real estate further reinforced bullish momentum.  In summary, these events suggest a likely temporary rise due to investor confidence from strategic engagement and leasing activity, potentially followed by mild volatility as valuation concerns intermittently weigh on sentiment, leading to a generally upward trend with fluctuating daily gains.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 53,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "The news highlights several positive short-term catalysts for Prologis (PLD), including a Zacks Rank #2 (Buy) upgrade, a 9.5% upward revision in 2022 FFO estimates, and a track record of 64.11% growth since 2020 with consistent earnings surprises, all reinforcing institutional confidence and bullish sentiment. Analysts' anticipation of further upside and the company's positioning as a resilient industrial real estate leader may amplify near-term buying interest. However, the absence of immediate negative events suggests any pullback would likely stem from profit-taking or broader market conditions rather than company-specific news.  In summary, these events may initially sustain upward momentum, but the lack of fresh catalysts could lead to a gradual consolidation or mild retreat as investors digest prior gains, resulting in early stability followed by moderate volatility.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 54,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis Inc's stock yield crossing 2% due to a quarterly dividend annualized to $3.16 may attract dividend-seeking investors, while the 9.5% upward revision of the Zacks Consensus Estimate for 2022 FFO per share signals improving fundamentals, likely boosting short-term confidence. The rumored $23 billion bid for Blackstone’s European warehouse/logistics business Mileway suggests strategic expansion potential, and the $1.2 billion net operating income upside from legacy leases rolling to market rents highlights embedded cash flow growth, both of which could drive positive sentiment.  In summary, these events are expected to lead to a temporary rise in the stock’s adjusted price due to dividend appeal and earnings optimism, followed by mild fluctuations as investors digest expansion rumors and cash flow potential, resulting in early gains, midweek consolidation, and late-stage upward momentum.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 55,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "The upward revision of PLD’s 2022 FFO per share consensus estimate may lead to a short-term price boost due to improved earnings expectations, while China’s Covid-19 lockdowns and potential U.S. dockworker wage negotiations could introduce immediate downward pressure from supply chain disruption fears. Analyst optimism around PLD’s $173.38 price target and its strategic positioning as a global logistics leader may counterbalance negative sentiment, creating mixed short-term reactions. The emphasis on digitization trends could further support investor confidence in PLD’s long-term growth, mitigating some volatility.  In summary, these events suggest a decline in the immediate days due to supply chain concerns, followed by a rebound driven by earnings optimism and sector positioning, resulting in increased volatility with midweek gains and late-week stabilization.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 56,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "ProLogis (PLD) reported stronger-than-expected Q1 2022 adjusted earnings of $1.09 per share (versus $0.55 estimates) and raised its 2022 core FFO guidance, which likely bolstered investor confidence in profitability and growth prospects. However, the company missed Q1 revenue estimates ($1.087 billion actual vs. consensus), creating mixed sentiment despite the FFO beat, while the disclosure of $1.6 billion annual NOI from lease mark-to-market gains highlighted significant embedded cash flow potential.  In summary, the positive earnings surprise and guidance revision may initially support a temporary rise, but the revenue miss and mixed signals could lead to increased volatility, with early gains potentially offset by later profit-taking or reassessment of growth sustainability.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 57,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis Inc (PLD) experienced a sharp 6% intraday decline driven by immediate negative market sentiment, likely due to short-term profit-taking or sector-wide pressure, despite positive news about its potential to command higher rents from increasing industrial space demand. The contrasting news—sudden selling pressure versus favorable supply-demand dynamics—creates a tension between short-term volatility and longer-term growth prospects.  In summary, these events suggest a likely **decline followed by stabilization** in the adjusted price over the next five trading days, as the initial negative sentiment may dominate early before the positive fundamentals temper further losses, leading to reduced volatility toward the end of the period.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 5,
+      "Delayed": 3,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.6248906660002499,
+      "Delayed": 0.37498438085717856,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 0.5106923259785365,
+    "self_consistency": 0.625,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 58,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Prologis Inc (PLD) faced a 5.6% loss amid broader Financial sector weakness (-1.6%), reflecting immediate negative sentiment due to sector-wide underperformance. Analysts identified notable upside to PLD's 12-month target price, creating optimism for future valuation growth, while the stock entering oversold territory (RSI 28.9) suggested potential short-term buying pressure from technical rebound expectations.  In summary, these events may lead to an initial decline due to sector drag, followed by a temporary rise from oversold rebound signals and analyst optimism, resulting in increased volatility with mixed directional movements over the five-day period.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 59,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Prologis (PLD) experienced mixed signals, including a 1.8% upward revision in 2022 FFO estimates and a raised consensus EPS estimate, which likely bolstered investor confidence in earnings potential. However, the stock underperformed peers with a 2.2% decline and missed quarterly revenue expectations ($1.087B), creating short-term pressure. The oversold RSI (25.55) suggested potential for a technical rebound, while the maintained Zacks Rank of 2 (Buy) provided underlying support.  In summary, these events may lead to initial downward pressure from revenue misses and sector underperformance, followed by a rebound due to oversold conditions and positive earnings revisions, resulting in early volatility with midweek stabilization and late-week recovery.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 60,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Prologis Inc saw a significant insider purchase by Director Avid Modjtabai ($1.8M), signaling strong executive confidence, which typically attracts short-term bullish sentiment. The company’s Zacks Rank upgrade to \"Buy\" and reports of record-low vacancies in industrial real estate further reinforced positive momentum, while concerns over floating-rate debt amid rising interest rates introduced minor bearish pressure. These mixed signals likely created a tug-of-war between optimism over growth potential and caution around financing costs.  In summary, the stock may experience a temporary rise due to bullish insider activity and sector tailwinds, followed by increased volatility as investors weigh strong fundamentals against interest rate risks, leading to alternating gains and pullbacks over the five-day period.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 6,
+      "Delayed": 2,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.7498438085717856,
+      "Delayed": 0.2500312382856429,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 1.0982790664057793,
+    "self_consistency": 0.75,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 61,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "- PLD's Zacks Rank #2 (Buy) and upward revision of the 2022 FFO per share consensus estimate may boost short-term investor confidence, driving buying activity. However, the elevated PEG ratio of 2.52 could temper optimism by signaling potential overvaluation relative to earnings growth, creating mixed sentiment.  In summary, these events suggest initial upward momentum due to positive earnings revisions and rank, followed by increased volatility or a pullback as investors weigh overvaluation concerns, potentially leading to a rise and subsequent decline in the adjusted price over the next five trading days.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 62,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis Inc (PLD) experienced two major short-term events: the announcement of its $26 billion all-stock acquisition of Duke Realty Corp (DRE), which likely boosted investor confidence in its market expansion, and the stock going ex-dividend on 6/15/22, typically causing an immediate price drop. Additionally, the finalization of the Duke Realty merger after prolonged negotiations reinforced positive sentiment, while the stock’s recent underperformance (-28.6% over three months) may have tempered short-term optimism. The Zacks Rank of 2 (Buy) further supported near-term bullish expectations.  In summary, these events suggest a temporary rise due to merger-driven optimism, followed by a decline from the ex-dividend adjustment, then potential recovery as the acquisition’s strategic benefits and analyst confidence outweigh near-term volatility, leading to mixed but net-positive movement.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 63,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis experienced mixed sentiment with a sharp daily decline (-1.94%) reflecting short-term bearish momentum, countered by positive catalysts like its $26 billion Duke Realty acquisition (strengthening industrial dominance) and institutional inflows via the XLRE ETF (2% rise). The stock’s \"out of favor\" status despite owning critical warehouse space introduced near-term skepticism, while its top holdings in major REIT ETFs (e.g., Vanguard) provided passive demand support.  In summary, these events may lead to initial volatility with a brief decline due to bearish sentiment, followed by a rebound from acquisition optimism and ETF inflows, resulting in midweek gains and late-week stabilization as conflicting narratives resolve.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 64,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. PLD raised its full-year 2022 guidance and reported strong Q2 earnings, which likely boosted investor confidence in near-term growth and operational strength. The company also increased its market rent growth estimates globally and in the U.S., reinforcing positive revenue expectations. However, shareholder opposition to its planned $26 billion acquisition of Duke Realty introduced uncertainty, potentially tempering short-term optimism.  In summary, these events suggest an initial rise due to strong earnings and guidance, followed by volatility as acquisition concerns weigh on sentiment, leading to mixed price movements with potential midweek declines and late-week stabilization.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 65,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis's announcement of acquiring Duke Realty and plans to spend an additional $1.2 to $1.7 billion in acquisitions this year likely boosted investor confidence, as expansion efforts signal growth potential and strategic positioning in the real estate sector. The news suggests a positive short-term outlook, with potential for increased demand for PLD shares due to perceived value creation from the acquisition and future investments.  In summary, these events are expected to drive a temporary rise in the stock’s adjusted price over the following five trading days, possibly with some midweek volatility as the market digests the implications of the acquisition, followed by sustained upward momentum as investor optimism solidifies.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 3,
+      "Delayed": 5,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.37498438085717856,
+      "Delayed": 0.6248906660002499,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 0.5106923259785365,
+    "self_consistency": 0.625,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 66,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis (PLD) experienced positive sentiment driven by a Zacks Rank #2 (Buy) upgrade, an upward revision of the 2022 FFO per share consensus estimate, and better-than-expected Q2 2022 results, all signaling analyst optimism and strong operational performance. These events typically attract short-term investor demand and support upward price momentum. However, the absence of immediate negative news suggests any downward movement would likely stem from broader market corrections or profit-taking after the recent positive catalysts.  In summary, the stock may see an initial rise due to bullish analyst sentiment and earnings outperformance, followed by increased volatility as investors reassess positions, potentially leading to mixed daily movements with periods of consolidation.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 67,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Prologis Inc. lost its #61 analyst ranking spot to Broadcom Inc., which likely reduced analyst confidence and negatively impacted the stock's adjusted price. However, the company's Zacks Rank #2 (Buy) and recent 11.4% quarterly gain with strong ROE may have provided some positive counterbalance, while insider share sales raised concerns about near-term valuation prospects. The mixed signals—positive institutional optimism but reduced analyst ranking and insider selling—suggest conflicting short-term pressures.  In summary, these events may lead to increased volatility with an initial decline due to reduced analyst confidence and insider selling, followed by partial recovery as positive fundamentals and institutional optimism temper the negative sentiment, resulting in fluctuating price movements over the next five trading days.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 68,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Prologis (PLD) saw positive sentiment driven by a $66.7 million inflow into the Real Estate Select Sector SPDR Fund (XLRE), reflecting increased investor demand for industrial REITs like PLD through ETF exposure. Additionally, the upward revision of Zacks Consensus Estimate for PLD’s 2022 funds from operations per share and its favorable #2 (Buy) rank signaled strengthened analyst confidence in near-term growth. The sustained demand for warehouse properties amid e-commerce growth further reinforced sector tailwinds supporting PLD’s occupancy and rental income prospects.  In summary, these events may lead to an initial price rise due to ETF inflows and improved analyst sentiment, followed by potential volatility as market participants digest the mixed implications of sector optimism and broader macroeconomic conditions, resulting in fluctuating daily movements.",
+    "pred_label": "Sustained",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 0,
+      "Sustained": 8
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.9997500937148568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 69,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. The upward revision of PLD’s 2022 FFO per share consensus estimate and its favorable ROE compared to peers may bolster short-term investor confidence, while the oversold RSI reading (28.8) suggests potential technical rebound momentum. However, growing recession concerns and e-commerce demand risks could weigh on sentiment, offsetting positive catalysts. Prologis’s strong market positioning in industrial real estate may provide underlying support but is unlikely to fully counter near-term macroeconomic fears.  In summary, these events may lead to initial volatility with a brief technical rebound, followed by a decline as recession concerns dominate, and eventual stabilization as oversold conditions and fundamental strengths partially mitigate downward pressure.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 70,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Prologis experienced mixed signals: a marginal upward revision of the 2022 FFO per share consensus estimate ($5.17) likely bolstered investor confidence in earnings potential, while its worst intraday S&P 500 performance (-3.4%) reflected acute bearish pressure. The approval of its merger with Duke Realty (retaining 94% of assets) provided a strategic growth catalyst, but the market’s reaction may hinge on integration risks or short-term sentiment swings.  In summary, these events may lead to initial volatility—a temporary rise due to merger optimism and improved earnings outlook, followed by a decline as bearish intraday sentiment resurfaces, and eventual stabilization as investors digest the merger’s long-term implications.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 71,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Prologis Inc (PLD) faced mixed short-term influences: Amazon's announcement of shutting distribution centers and subleasing warehouses likely raised concerns about reduced demand for industrial space, pressuring PLD’s occupancy revenue. Conversely, higher dividend yields due to battered stock prices may attract income-focused investors, providing some support. Additionally, PLD’s inclusion in IVW contributed to a 1.6% intraday decline, reflecting bearish sentiment tied to broader market movements.  In summary, these events suggest a decline in the immediate days due to Amazon-related demand concerns and sector-driven sell-offs, followed by partial stabilization as dividend appeal tempers losses, resulting in increased volatility with alternating negative and positive adjustments.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 72,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis’ stock may experience mixed short-term reactions due to conflicting signals: the negative sentiment from its high PEG ratio (2.17) suggesting overvaluation could pressure the price, while insider share purchases and strong U.S. industrial market fundamentals (record rents, heightened absorption) may bolster confidence. Investors are likely to weigh internal optimism against earnings growth concerns, creating competing forces. In summary, these events could lead to initial upward momentum from bullish industrial data and insider activity, followed by volatility as the market digests valuation risks, resulting in a rise, then partial retracement, and eventual stabilization.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 73,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis reported stronger-than-expected Q3 2022 core FFO per share ($1.73 vs. estimates), likely boosting short-term investor confidence due to the earnings beat. Additionally, the company's 59.7% surge in rental rates for new leases and guidance for 8-10% annual NOI growth signaled robust cash flow visibility, reinforcing bullish sentiment. These positive financial metrics may have driven initial upward momentum, though profit-taking or sector-wide adjustments could later temper gains.  In summary, the earnings surprise and strong leasing metrics may lead to a temporary rise in the adjusted price, followed by mild consolidation as the market digests the news, resulting in early gains and subsequent stabilization with minor fluctuations.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 74,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis, Inc. (PLD) reported third-quarter 2022 core FFO per share of $1.73, surpassing the Zacks Consensus Estimate of $1.71, indicating stronger-than-expected financial performance driven by robust leasing activity and rent growth, which likely bolstered investor confidence. This earnings beat, coupled with positive sentiment around the company's operational strength, may have provided short-term upward momentum for the stock.  In summary, the positive earnings surprise is expected to drive a temporary rise in the adjusted price due to improved investor sentiment, potentially followed by mild fluctuations as the market digests the news, resulting in early gains and midweek stability with late-week volatility.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 75,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis Inc (PLD) was named a Top 25 \"Dividend Giant\" with a 2.90% yield and strong dividend growth history, which may attract income-focused investors seeking reliable payouts, potentially boosting demand. Additionally, PLD rose 6.4% amid ETF-driven demand for underlying holdings in IYR, suggesting short-term buying pressure from unit creation. These positive catalysts could reinforce investor confidence in the stock’s near-term performance.  In summary, the dividend recognition and ETF-driven demand may lead to a temporary rise in the adjusted price, followed by mild fluctuations as the initial enthusiasm stabilizes, resulting in early gains and midweek consolidation with slight upward momentum.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 76,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis announced the launch of two significant electric truck charging installations in Southern California, which likely bolstered investor confidence in its strategic positioning within sustainable logistics infrastructure. Additionally, the company's projection of 8% to 10% annual growth in same-store net operating income signaled sustained rental income strength, while its outperformance relative to the industry (10.9% vs. 5.7% growth) and inclusion in ETFs like IVV further reinforced positive sentiment. These developments collectively highlight near-term catalysts tied to operational execution and sector momentum.  In summary, these events suggest a temporary rise due to strategic initiatives and growth projections, potentially followed by mild fluctuations as initial enthusiasm is balanced by profit-taking, leading to a net positive but uneven trajectory over the next five trading days.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 77,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis' mixed financial signals—positive analyst confidence from upward earnings and revenue estimates ($5.12 EPS, $4.7B revenue) contrasted with a high PEG ratio (2.61) signaling potential overvaluation—likely created short-term uncertainty among investors. The conflicting metrics may have triggered initial selling pressure due to valuation concerns, followed by partial recovery as the market digested the positive earnings outlook.  In summary, these events suggest a decline in the immediate days due to overvaluation fears, followed by a rebound as earnings optimism partially offsets the negative PEG ratio impact, leading to increased short-term volatility with alternating gains and losses.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 78,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Director David P. O’Connor’s purchase of 9,000 PLD shares signals insider confidence, likely providing short-term bullish momentum, while the $92.2M outflow from XLRE (PLD’s ETF) may pressure shares due to reduced institutional demand. Prologis’ favorable market positioning and sustainability investments could support gradual appreciation, but its elevated PEG ratio (2.66 vs. industry 2.01) may temper gains as investors weigh valuation concerns.  In summary, these events suggest a decline in the immediate days due to ETF outflows and valuation hesitancy, followed by a partial recovery as insider buying and sector tailwinds offset early weakness, leading to mixed but net-negative short-term performance.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 79,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis Inc (PLD) faced two key short-term events: a downward adjustment from its ex-dividend date (12/16/22), which typically causes an immediate price drop, and positive sentiment from closing the Duke Realty acquisition, signaling growth potential. The ex-dividend adjustment likely pressured the stock initially, while the acquisition news may have provided a counterbalancing uplift.  In summary, these events suggest a decline in the immediate days due to the dividend adjustment, followed by stabilization or mild recovery as investors digest the acquisition’s strategic benefits, leading to mixed but ultimately balanced short-term price movement.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 80,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. PLD’s upward revision of the 2022 FFO per share consensus estimate and the positive Earnings ESP ($1.22) likely bolstered near-term investor confidence in its financial performance. Additionally, its recognition by Motley Fool as a high-quality REIT with safe dividends and inclusion in ETFs like IYR may have spurred retail and institutional demand. These factors collectively suggest a favorable short-term sentiment for the stock.  In summary, these events may lead to a temporary rise due to improved earnings outlook and heightened investor interest, followed by mild volatility as market participants digest the positive news, resulting in fluctuating but generally upward-adjusted price movements over the next five trading days.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 81,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis (PLD) received positive sentiment from a favorable Earnings ESP (+0.55%) ahead of its January 18 earnings release, signaling a higher likelihood of beating consensus estimates, which typically drives short-term bullish momentum. Additionally, the Zacks Consensus Estimate projected a 23.4% year-over-year increase in 2022 FFO per share, reinforcing expectations of strong operational performance and dividend sustainability, further bolstering investor confidence. These factors suggest a market reaction aligned with optimistic earnings anticipation and fundamental strength.  In summary, the positive earnings outlook and strong FFO projections may lead to an initial price rise due to speculative buying, followed by moderate volatility as investors digest the news, potentially resulting in early gains and midweek consolidation.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 82,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Analysts' bullish target price projection of $137.00/share (13.27% above recent price) likely fueled short-term optimism, reinforcing upward momentum. PLD's high rating under Validea’s Growth Investor model further bolstered confidence in its growth prospects, while its recession-resistant tenant portfolio (e.g., Walmart, Home Depot) underscored stability, mitigating downside risks. These combined factors may have driven speculative interest and reinforced investor conviction.  In summary, these events suggest a temporary rise due to bullish analyst sentiment and growth model validation, potentially followed by mild volatility as market participants digest the sustainability of these positive catalysts, leading to mixed but net-positive short-term price action.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 83,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis reported stronger-than-expected Q4 earnings ($1.24 vs. $0.56 consensus) and core FFO beat ($1.24 vs. $1.21 estimate), which likely bolstered investor confidence in its profitability. However, mixed signals emerged from its 2023 guidance (slightly below consensus) and slowing rent growth/NOI, creating uncertainty despite positive rent escalation projections (8.5%-9.5% NOI growth) and strategic growth via the Duke Realty acquisition. The Earnings ESP and Most Accurate Estimate ($1.25) for the upcoming report may have further fueled speculative optimism.  In summary, these events suggest a temporary rise due to earnings outperformance and strategic growth, followed by volatility as conflicting signals (guidance concerns vs. rent growth potential) lead to alternating investor reactions, resulting in uneven price movements over the short term.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 84,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. PLD's positive earnings outlook, driven by the Zacks Consensus Estimate of $5.55 FFO per share for 2023, likely bolstered investor confidence in its near-term profitability. The completion of the $23 billion Duke Realty acquisition and partnerships for built-to-rent communities further reinforced growth expectations, signaling strong market expansion and operational momentum. These developments collectively suggest a favorable short-term sentiment for the stock.  In summary, these events may lead to an initial price rise due to improved earnings and acquisition synergies, followed by moderate volatility as investors digest the growth prospects, potentially resulting in early gains and midweek consolidation.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 85,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. The introduction of new out-of-the-money options for PLD with a $130 strike price may lead to increased hedging activity and downward pressure near that level, while the $125.6 million outflow from XLRE (where PLD is a major component) could trigger forced selling. Conversely, PLD’s reaffirmed 9-10% FFO growth projections and its recognition as a high-growth, high-yield REIT may bolster investor confidence and demand. These conflicting signals—negative ETF flows and options activity versus positive fundamentals and sentiment—create a push-pull dynamic.  In summary, the stock may experience a decline followed by stabilization as near-term pressure from ETF outflows and options hedging is offset by renewed buying interest from growth-focused investors, leading to moderate volatility with an initial dip and partial recovery.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 86,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. State Street's significant 24.06% portfolio allocation increase in Prologis (PLD) and raised ownership to 61.92MM shares signals strong institutional confidence, likely prompting short-term bullish sentiment. Prologis' Q4 2022 core FFO per share beat ($1.24 vs. $1.21 estimate) reinforces operational strength, while shrinking industrial space supply and rising rental rates directly benefit PLD's revenue outlook. These positive catalysts may initially outweigh broader market pressures or profit-taking behavior.  In summary, the events suggest a temporary rise due to institutional buying and earnings momentum, potentially followed by mild consolidation as the market digests the news, leading to early gains and later stabilization with slight volatility.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 87,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis reported a Q4 2022 core FFO per share beat ($1.24 vs. $1.21 consensus), signaling financial strength and likely boosting short-term investor confidence. However, its elevated PEG ratio (3.12 vs. industry 2.09) may temper gains due to valuation concerns, while sustained Q3 FFO growth (9% YoY) and a top Validea Earnings Revision rating could attract institutional buying. ETF creation/destruction dynamics add potential demand volatility, depending on fund flows.  In summary, these events may lead to initial price strength from earnings outperformance and guru ratings, followed by mixed reactions due to valuation pressures and ETF-driven demand shifts, resulting in early gains, midweek consolidation, and late-week upward momentum.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 88,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "1. Prologis (PLD) received positive sentiment from upward revisions to its 2023 FFO per share estimates (+7.2% YoY) and strong guidance projecting 9.5% growth, driven by e-commerce demand and acquisitions, which likely bolstered investor confidence in near-term earnings. Conversely, the $122 million outflow from the Real Estate Select Sector SPDR Fund (XLRE) signaled sector-wide reduced investor demand, potentially pressuring REIT valuations despite PLD’s strong fundamentals. These conflicting signals—company-specific optimism versus sector-wide caution—may create competing forces in the short term.  In summary, the stock may initially rise due to upbeat earnings guidance, then face midweek declines from sector outflows, culminating in increased volatility as investors reconcile PLD’s strong performance with broader REIT weakness.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 89,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "The news highlights a mixed short-term outlook for PLD: the positive Zacks Consensus Estimate upgrade (7.2% FFO growth) and recommendations over debt-laden peers may bolster investor confidence, while the breach of the 200-day moving average could trigger technical selling pressure. Strategic acquisition focus and solid dividends provide underlying support, but the technical bearish signal may dominate near-term sentiment.  In summary, these events suggest a likely initial decline due to technical bearishness, followed by stabilization or modest recovery as positive fundamentals offset short-term pressure, resulting in early weakness and later partial rebound.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 90,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis Inc (PLD) faced mixed signals: a high PEG ratio (3.03) signaled potential overvaluation, likely pressuring the stock, while a dividend yield above 3% may have attracted income-seeking investors, providing support. The stock also slid 3.6% amid a broader real estate sector decline, reflecting immediate downward pressure from sector-wide selling activity. In summary, these events suggest initial volatility with a possible decline due to overvaluation concerns and sector weakness, followed by stabilization or modest recovery as dividend appeal offsets negative sentiment, leading to uneven short-term movements.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 91,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Since no specific news items or summaries related to PLD stock were provided in the input, I cannot identify or analyze any transient or sudden events that may have influenced its short-term price movement. Without concrete news data, it is impossible to draw causal connections between events and market behavior.  **In summary,** the absence of reported news prevents any assessment of plausible impacts on PLD’s adjusted closing price over the next five trading days.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 92,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Prologis received mixed signals from analysts, with a bullish price target of $138.75 suggesting upside potential, which may attract short-term buying interest, while the stock crossing below its 200-day moving average ($119.38) could trigger technical selling pressure. These conflicting signals—optimistic fundamentals versus bearish technicals—are likely to create near-term volatility as investors weigh sentiment against market mechanics.  In summary, the stock may experience initial upward momentum due to bullish analyst sentiment, followed by technical-driven selling pressure, leading to increased short-term volatility with alternating gains and declines before stabilizing.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 93,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Abbott Laboratories experienced strong demand for its COVID-19 testing platforms (BinaxNOW, Panbio, ID NOW), which may boost near-term diagnostic revenue and investor optimism. Additionally, consistent organic growth in its Established Pharmaceuticals and Diabetes segments, along with resilience in consumer-facing businesses like nutrition, reinforces revenue stability and diversified earnings. Speculation about a potential acquisition of ShockWave Medical could further drive short-term bullish sentiment due to strategic expansion prospects.  In summary, these events suggest a temporary rise due to positive revenue expectations and M&A speculation, followed by increased volatility as investors weigh the sustainability of diagnostic demand and acquisition feasibility, potentially leading to midweek gains and late-week fluctuations.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 94,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Abbott Laboratories' declining COVID-19 testing demand (down to 322k cases) and conservative 2022 revenue guidance ($2.5B vs. Q4 2021's near-equivalent performance) likely dampened near-term earnings expectations, pressuring the stock. Conversely, the placement of 3,000+ Alinity diagnostic instruments in 2021, with two-thirds from market share gains, may provide partial offset by reinforcing recurring revenue potential. The conflicting signals—testing headwinds versus diagnostics expansion—could amplify short-term uncertainty.  In summary, these events suggest a decline in the immediate days due to testing revenue concerns, followed by mixed volatility as negative guidance and Alinity adoption narratives compete, likely resulting in an overall downward trend with intermittent but insufficient rebounds.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 95,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Abbott Laboratories faced significant negative sentiment due to the recall of powdered baby formulas linked to bacterial infections, which risks reputational damage and regulatory scrutiny, likely pressuring the stock. Additionally, the stock crossing below its 200-day moving average and high volume in $114 strike put options signaled bearish technical sentiment and speculative downside bets, further dampening short-term outlook. However, the oversold RSI reading (26.2) may attract contrarian buyers anticipating a rebound, introducing potential volatility.  In summary, these events suggest a decline in the immediate days due to reputational and technical pressures, followed by stabilization and a possible rebound later in the week as oversold conditions attract buyers, leading to mixed but volatile price movements.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 96,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Abbott Laboratories' stock was influenced by conflicting signals: strong growth in consumer-facing businesses (nutrition, pharmaceuticals, diabetes care) and rebounding medical device sales likely provided upward momentum, while a 7% monthly and 4% weekly decline amid market underperformance and perceived competition from Merck introduced bearish pressure. The mixed sentiment—resilient diversification vs. short-term underperformance and investor reallocation concerns—suggests a tug-of-war between positive fundamentals and near-term skepticism.  In summary, these events may lead to **increased volatility**, with an initial decline due to lingering bearish sentiment, followed by partial recovery as resilient segment performance offsets short-term pressures, resulting in uneven but net-positive adjustments over the five-day period.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 97,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Abbott Laboratories faced significant negative sentiment due to the recall of Similac PM 60/40 products linked to infant deaths and bacterial infections, which likely raised concerns about reputational damage and regulatory risks. The FDA's expansion of the recall after a second infant death further intensified these concerns, potentially eroding consumer trust and sales. Conversely, Abbott's positive 2022 EPS guidance projecting a 45% year-over-year increase may have provided some counterbalancing optimism about earnings momentum.  In summary, these events suggest a likely decline in the immediate days due to reputational and regulatory risks, followed by increased volatility as negative recall news clashes with positive earnings guidance, leading to sharp drops and partial recoveries.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 98,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Abbott Laboratories (ABT) faced immediate downward pressure as its stock dropped ~2.4% due to its inclusion in the ITOT ETF, reflecting negative market sentiment and short-term selling activity. Additionally, ABT’s higher forward P/E ratio (24x) compared to Medtronic’s (19x) raised overvaluation concerns in the healthcare sector, likely exacerbating the decline. These events suggest investor wariness toward ABT’s near-term valuation and ETF-driven volatility.  In summary, the stock may experience an initial decline due to ETF-related selling and valuation concerns, followed by stabilization or gradual recovery as the market digests these short-term pressures, leading to mixed but ultimately upward-adjusted price movements.",
+    "pred_label": "Immediate",
+    "sample_counts": {
+      "Immediate": 8,
+      "Delayed": 0,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.9997500937148568,
+      "Delayed": 0.00012495314257153568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  },
+  {
+    "dataset": "fnspid",
+    "split": "train",
+    "sample_id": 99,
+    "primitive": "temporal_influence",
+    "schema": "legacy_v1",
+    "raw_news": "Abbott Laboratories' PEG ratio of 2.32 suggests potential overvaluation relative to earnings growth, which may prompt short-term investor caution and downward pressure on the stock. Conversely, its 1.6% dividend yield could provide modest support, attracting income-focused buyers and mitigating some selling pressure. These conflicting signals—overvaluation concerns versus dividend stability—create a tug-of-war in market sentiment.  In summary, the stock may experience a decline followed by stabilization as initial overvaluation concerns weigh on prices, but the dividend yield could temper the drop and encourage partial recovery, leading to mixed but ultimately subdued movement.",
+    "pred_label": "Delayed",
+    "sample_counts": {
+      "Immediate": 0,
+      "Delayed": 8,
+      "Sustained": 0
+    },
+    "sample_probs": {
+      "Immediate": 0.00012495314257153568,
+      "Delayed": 0.9997500937148568,
+      "Sustained": 0.00012495314257153568
+    },
+    "margin": 8.987321812850123,
+    "self_consistency": 1.0,
+    "parse_rate": 1.0,
+    "valid_count": 8,
+    "num_samples": 8,
+    "margin_type": "sampled_self_consistency_margin",
+    "backend": "openai-compatible",
+    "prompt_source": "fallback",
+    "prompt_template_path": null,
+    "model": "qwen3-8b"
+  }
+]
