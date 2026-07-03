@@ -4,7 +4,7 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2603.12664-b31b1b.svg)](https://arxiv.org/abs/2603.12664)
 [![ICML 2026](https://img.shields.io/badge/ICML-2026%20Oral-blue.svg)](https://icml.cc/)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+
 
 **From Text to Forecasts: Bridging Modality Gap with Temporal Evolution Semantic Space**
 
@@ -16,17 +16,43 @@
 
 ## Overview
 
-TESS bridges the modality gap between text and time-series forecasting by introducing a **Temporal Evolution Semantic Space** — an interpretable intermediate bottleneck. An LLM (Qwen3-8B) extracts four temporal primitives (distribution shift, volatility, shape, temporal influence) from text via structured prompting. These primitives feed into a forecasting model through confidence-aware gating and late additive fusion, achieving up to **29% error reduction** over SOTA baselines on four real-world datasets.
+This is an offical implementation of From Text to Forecasts: Bridging Modality Gap with Temporal Evolution Semantic Space
+
+https://arxiv.org/abs/2603.12664
+
 
 ## Key Designs
 
-:star2: **Temporal Primitives** — LLM extracts four interpretable, numerically-grounded primitive labels from text, forming a discrete semantic bottleneck between modalities.
+:star2: **Temporal Evolution Semantic Space** — TESS acts as a mediator for information exchange between textual descriptions and numerical time series. It requires two core properties: evolution-relevant (directly tied to future temporal dynamics) and quantifiable (grounded as numerical forecasting conditions).
 
-:star2: **Confidence-Aware Gating** — A learned gate filters unreliable LLM predictions using self-consistency margins.
+<div align="center">
+  <img src="assets/tess_overview.png" width="850" alt="TESS Overview">
+</div>
 
-:star2: **Late Additive Fusion** — Numeric and primitive branches are decoded independently, then combined: `y_hat = y_numeric + text_delta_scale * y_primitive_delta`.
+:star2: **Text Space → TESS** — A frozen LLM reads text and numerical observations together, and extracts temporal evolution primitives in TESS. Confidence-aware gating suppresses unreliable primitive labels.
 
-:star2: **Teacher-Student Distillation** — A teacher trained on oracle (GT) primitives transfers primitive-level knowledge to a student using only LLM-extracted text primitives.
+<div align="center">
+  <img src="assets/text_to_tess.png" width="800" alt="Text to TESS Pipeline">
+</div>
+
+:star2: **TESS → Forecast** — Gated primitives condition a PatchTST-based forecaster. The model fuses compact semantic labels with historical patches, and outputs a numerical forecast grounded in temporal dynamics.
+
+<div align="center">
+  <img src="assets/tess_to_forecast.png" width="800" alt="TESS to Forecast Pipeline">
+</div>
+
+
+## Main Results
+
+MSE comparison:
+
+<div align="center">
+  <img src="assets/main_results.png" width="850" alt="Main Results">
+</div>
+
+- Financial datasets: substantial gains under pronounced event-driven non-stationarity.
+- General datasets: best on Electricity and runner-up on Environment, showing stable predictive capability.
+- Overall: up to 29.1% MSE reduction over the strongest baseline.
 
 ## Installation
 
