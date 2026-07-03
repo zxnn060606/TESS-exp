@@ -1,156 +1,96 @@
-# TESS RC2
+# TESS: Temporal Evolution Semantic Space
+
+<div align="center">
+
+[![arXiv](https://img.shields.io/badge/arXiv-2603.12664-b31b1b.svg)](https://arxiv.org/abs/2603.12664)
+[![ICML 2026](https://img.shields.io/badge/ICML-2026%20Oral-blue.svg)](https://icml.cc/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+
+**From Text to Forecasts: Bridging Modality Gap with Temporal Evolution Semantic Space**
+
+*Lehui Li, Yuyao Wang, Jisheng Yan, Wei Zhang, Jinliang Deng, Haoliang Sun, Zhongyi Han, Yongshun Gong*
+
+*ICML 2026 Oral*
+
+</div>
 
 ## Overview
 
-TESS-RC2 contains the current primitive inference cache flow plus RC2 training and evaluation for numeric and primitive-enhanced time-series forecasting. The main local workflow is: prepare raw dataset splits, build or load grouped primitive gate caches, inspect the joined dataset, train numeric or primitive-aware models, and compare run `summary.json` files.
+TESS bridges the modality gap between text and time-series forecasting by introducing a **Temporal Evolution Semantic Space** — an interpretable intermediate bottleneck. An LLM (Qwen3-8B) extracts four temporal primitives (distribution shift, volatility, shape, temporal influence) from text via structured prompting. These primitives feed into a forecasting model through confidence-aware gating and late additive fusion, achieving up to **29% error reduction** over SOTA baselines on four real-world datasets.
 
-## Data Layout
+## Key Designs
 
-Expected dataset and primitive cache paths:
+:star2: **Temporal Primitives** — LLM extracts four interpretable, numerically-grounded primitive labels from text, forming a discrete semantic bottleneck between modalities.
 
-```text
-dataset/{dataset}/{split}.json
-data_cache/gate_grouped/{dataset}/{split}.json
-```
+:star2: **Confidence-Aware Gating** — A learned gate filters unreliable LLM predictions using self-consistency margins.
 
-`primitive_inference_rc2/tess_dataset.py` reads raw `x`/`y` values from `dataset/{dataset}/{split}.json` and reads primitive labels, margins, masks, and gate targets from `data_cache/gate_grouped/{dataset}/{split}.json`.
+:star2: **Late Additive Fusion** — Numeric and primitive branches are decoded independently, then combined: `y_hat = y_numeric + text_delta_scale * y_primitive_delta`.
 
-## Environment
+:star2: **Teacher-Student Distillation** — A teacher trained on oracle (GT) primitives transfers primitive-level knowledge to a student using only LLM-extracted text primitives.
 
-Known local environment style:
+## Installation
 
 ```bash
-source /home/lyc/anaconda3/etc/profile.d/conda.sh
-conda activate tslib
-cd /home/lyc/workspace/TESS-RC2
+conda create -n tess python=3.10 -y && conda activate tess
+pip install torch --index-url https://download.pytorch.org/whl/cu118  # adjust for your CUDA
+pip install -r requirements.txt
 ```
 
-## Inspect Dataset
+## Primitive Inference
+
+Primitive labels must be generated before training. **Inference results for all four datasets are already provided** in `data_cache/` — you can skip straight to training.
+
+To reproduce the inference pipeline from scratch, TESS uses **Qwen3-8B** via an OpenAI-compatible API. Fill in your own API key and endpoint, then run:
 
 ```bash
-python -m experiments.inspect_tess_dataset \
-  --root /home/lyc/workspace/TESS-RC2 \
-  --dataset fnspid \
-  --output-json outputs/tess_basic/real_fnspid_legacy_standard/inspect_report.json
+BASE_URL=<your-api-endpoint> \
+API_KEY=<your-api-key> \
+MODEL=qwen3-8b \
+bash scripts/run_other_datasets_sampling4.sh
 ```
 
-## Metric Scale
+## Training & Main Results
 
-Use `--scale legacy_standard` for legacy-compatible metrics. This fits one global mean/std on flattened train `historical_data` only, then standardizes both `x` and `y` for train/vali/test with that train-history scaler. Main reported MSE/MAE are normalized-space metrics. Raw-scale add-on metrics may also be saved as `raw_mse` and `raw_mae`.
+The main paper results use teacher-student distillation:
 
-Use `--scale raw` only when you intentionally want raw-value training and metrics. Do not compare raw-scale metrics directly with legacy normalized metrics.
-
-## Basic Training Command
+**Step 1** — Train the teacher (GT primitives, oracle upper bound):
 
 ```bash
-python -m experiments.train_tess_basic \
-  --root /home/lyc/workspace/TESS-RC2 \
-  --dataset fnspid \
-  --model legacy_multimodal_primitive \
-  --primitive-source text \
-  --epochs 25 \
-  --batch-size 32 \
-  --lr 0.0005 \
-  --device cuda \
-  --scale legacy_standard \
-  --seed 42 \
-  --output-dir outputs/tess_basic/real_fnspid_legacy_standard/example_run \
-  --overwrite
+ROOT=. MODE=gt_scale1 bash scripts/run_legacy_multimodal_primitive_additive_fnspid.sh
 ```
 
-Implemented RC2 model names:
-
-```text
-numeric_mlp
-tess_nogate
-tiny_temporal
-tiny_temporal_tess
-legacy_timesnet
-legacy_multimodal_primitive
-legacy_multimodal_primitive_gate
-legacy_multimodal_primitive_delta_gate
-```
-
-## Primitive Inference Caches
-
-Unified primitive pipeline entry point:
+**Step 2** — Train students via distillation:
 
 ```bash
-python -m primitive_inference_rc2.run_primitive_pipeline \
-  --root /home/lyc/workspace/TESS-RC2 \
-  --dataset fnspid \
-  --primitives distribution_shift volatility shape temporal_influence \
-  --splits train vali test \
-  --backend mock \
-  --prompt-source auto \
-  --num-samples 8 \
-  --seed 42 \
-  --stages sampled gate grouped audit \
-  --overwrite
+# Hard distillation
+ROOT=. bash scripts/run_additive_hard_distill_fnspid.sh
+
+# Soft distillation (probability-weighted embeddings)
+ROOT=. bash scripts/run_additive_soft_distill_fnspid_v2.sh
 ```
 
-Use `--backend mock` for local validation. For real LLM inference, use `--backend openai-compatible` and provide `--base-url`, `--api-key`, and `--model` for a vLLM/OpenAI-compatible server. Start with a small `--limit` smoke test before full inference.
+| Variant | Student Model | Difference |
+|---------|--------------|------------|
+| Hard | `legacy_multimodal_primitive_additive` | Hard ID embedding lookup |
+| Soft | `legacy_multimodal_primitive_additive_soft` | Probability-weighted embedding (captures LLM uncertainty) |
 
-`scripts/run_other_datasets_sampling4.sh` runs sampling-4 primitive inference for other datasets with an OpenAI-compatible backend by default. Set `DATASETS`, `ROOT`, `BASE_URL`, `API_KEY`, and `MODEL` for the target server.
+Both initialize the student's numeric backbone from the teacher and distill only the primitive delta (`λ_delta=0.1`, `λ_pred=0.0`).
 
-## Common Scripts
-
-- `scripts/run_tess_real_basic.sh`: runs dataset inspection and the basic real-data RC2 suite.
-- `scripts/run_rc2_timesnet_fnspid_numeric.sh`: RC2 pure-numeric TimesNet on FNSPID.
-- `scripts/run_legacy_timesnet_fnspid_numeric.sh`: legacy pure-numeric TimesNet on FNSPID and comparison helper.
-- `scripts/run_rc2_timesnet_fnspid_full.sh`: full RC2 TimesNet numeric run with full legacy hyperparameters.
-- `scripts/run_legacy_timesnet_fnspid_full.sh`: full legacy TimesNet numeric run with full legacy hyperparameters.
-- `scripts/run_legacy_multimodal_primitive_fnspid.sh`: no-gate primitive model with `text`, `gt`, or both.
-- `scripts/run_legacy_multimodal_primitive_gate_fnspid.sh`: direct margin-gate primitive model using text primitives.
-- `scripts/run_legacy_multimodal_primitive_delta_gate_fnspid.sh`: conservative delta-gate primitive model using text primitives.
-- `scripts/run_other_datasets_sampling4.sh`: real primitive inference cache generation for other datasets using sampling=4.
-
-## Model / Primitive Source Matrix
-
-| Model family | Models | `--primitive-source` |
-| --- | --- | --- |
-| Numeric only | `numeric_mlp`, `tiny_temporal`, `legacy_timesnet` | `none` |
-| Primitive no-gate | `tess_nogate`, `tiny_temporal_tess`, `legacy_multimodal_primitive` | `text` or `gt` |
-| Primitive gate | `legacy_multimodal_primitive_gate`, `legacy_multimodal_primitive_delta_gate` | `text` |
-
-`gt` primitive source is oracle-only and should be used for analysis, not deployment-style evaluation.
-
-## Recommended Workflow
-
-1. Generate or check grouped primitive caches under `data_cache/gate_grouped/{dataset}/`.
-2. Inspect the joined dataset with `experiments.inspect_tess_dataset`.
-3. Run a numeric baseline with `--primitive-source none`.
-4. Run primitive no-gate variants with `--primitive-source text`, then optional oracle `gt`.
-5. Run direct gate and delta-gate variants.
-6. Compare `summary.json` files, especially validation-selected `best_reloaded_test_mse`.
-
-## Outputs
-
-Each training run writes:
-
-```text
-config.json
-metrics.json
-summary.json
-best.pt
-last.pt
-```
-
-The main result is `best_reloaded_test_mse`, selected by validation MSE and recomputed after loading `best.pt`.
-
-TimesNet comparison utility:
+**View results:**
 
 ```bash
-python -m experiments.compare_timesnet_legacy_vs_rc2 \
-  --legacy-root outputs/legacy_timesnet_fnspid_full \
-  --rc2-summary outputs/tess_basic/real_fnspid_legacy_standard/legacy_timesnet_full/summary.json \
-  --output-json outputs/tess_basic/real_fnspid_legacy_standard/legacy_timesnet_full/legacy_vs_rc2_comparison.json
+python -m experiments.summarize_additive_results --out-root outputs/tess_basic/fnspid_legacy_standard
 ```
 
-## Notes / Caveats
+## Citation
 
-- Do not compare raw-scale metrics with legacy normalized metrics.
-- `gt` primitive source is oracle-only.
-- Gate targets are supervision only and should not be used as model input.
-- `dataset/` and `legacy/` should generally not be modified.
-- Some real vLLM scripts contain server-specific defaults; check `ROOT`, `BASE_URL`, `MODEL`, and output paths before running them.
+```bibtex
+@inproceedings{li2026tess,
+  title     = {From Text to Forecasts: Bridging Modality Gap with Temporal Evolution Semantic Space},
+  author    = {Lehui Li and Yuyao Wang and Jisheng Yan and Wei Zhang and Jinliang Deng and Haoliang Sun and Zhongyi Han and Yongshun Gong},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  year      = {2026},
+  note      = {Oral Presentation}
+}
+```
+
