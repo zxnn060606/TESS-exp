@@ -23,7 +23,6 @@
 
 **From Text to Forecasts: Bridging Modality Gap with Temporal Evolution Semantic Space**
 
-*Lehui Li, Yuyao Wang, Jisheng Yan, Wei Zhang, Jinliang Deng, Haoliang Sun, Zhongyi Han, Yongshun Gong*
 
 *ICML 2026 Oral*
 
@@ -31,45 +30,6 @@
 
 ## Overview
 
-This is an offical implementation of From Text to Forecasts: Bridging Modality Gap with Temporal Evolution Semantic Space
-
-https://arxiv.org/abs/2603.12664
-
-
-## Key Designs
-
-:star2: **Temporal Evolution Semantic Space** — TESS acts as a mediator for information exchange between textual descriptions and numerical time series. It requires two core properties: evolution-relevant (directly tied to future temporal dynamics) and quantifiable (grounded as numerical forecasting conditions).
-
-<div align="center">
-  <img src="assets/tess_overview.png" width="850" alt="TESS Overview">
-</div>
-
-:star2: **Text Space → TESS** — A frozen LLM reads text and numerical observations together, and extracts temporal evolution primitives in TESS. Confidence-aware gating suppresses unreliable primitive labels.
-
-<div align="center">
-  <img src="assets/text_to_tess.png" width="800" alt="Text to TESS Pipeline">
-</div>
-
-:star2: **TESS → Forecast** — Gated primitives condition a PatchTST-based forecaster. The model fuses compact semantic labels with historical patches, and outputs a numerical forecast grounded in temporal dynamics.
-
-<div align="center">
-  <img src="assets/tess_to_forecast.png" width="800" alt="TESS to Forecast Pipeline">
-</div>
-
-
-## Main Results
-
-MSE comparison:
-
-<div align="center">
-  <img src="assets/main_results.png" width="850" alt="Main Results">
-</div>
-
-- Financial datasets: substantial gains under pronounced event-driven non-stationarity.
-- General datasets: best on Electricity and runner-up on Environment, showing stable predictive capability.
-- Overall: up to 29.1% MSE reduction over the strongest baseline.
-
-## Installation
 This is an offical implementation of From Text to Forecasts: Bridging Modality Gap with Temporal Evolution Semantic Space
 
 https://arxiv.org/abs/2603.12664
