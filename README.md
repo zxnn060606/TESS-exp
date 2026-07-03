@@ -24,7 +24,7 @@ https://arxiv.org/abs/2603.12664
 :star2: **Temporal Evolution Semantic Space** — TESS acts as a mediator for information exchange between textual descriptions and numerical time series. It requires two core properties: evolution-relevant (directly tied to future temporal dynamics) and quantifiable (grounded as numerical forecasting conditions).
 
 <div align="center">
-  <img src="assets/tess_overview.svg" width="850" alt="TESS Overview">
+  <img src="assets/tess_overview.png" width="850" alt="TESS Overview">
 </div>
 
 :star2: **Text Space → TESS** — A frozen LLM reads text and numerical observations together, and extracts temporal evolution primitives in TESS. Confidence-aware gating suppresses unreliable primitive labels.
