@@ -5,28 +5,12 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2603.12664-b31b1b.svg)](https://arxiv.org/abs/2603.12664)
 [![ICML 2026](https://img.shields.io/badge/ICML-2026%20Oral-blue.svg)](https://icml.cc/)
 
-
 **From Text to Forecasts: Bridging Modality Gap with Temporal Evolution Semantic Space**
-
-*Lehui Li, Yuyao Wang, Jisheng Yan, Wei Zhang, Jinliang Deng, Haoliang Sun, Zhongyi Han, Yongshun Gong*
 
 *ICML 2026 Oral*
 
 </div>
-# TESS: Temporal Evolution Semantic Space
 
-<div align="center">
-
-[![arXiv](https://img.shields.io/badge/arXiv-2603.12664-b31b1b.svg)](https://arxiv.org/abs/2603.12664)
-[![ICML 2026](https://img.shields.io/badge/ICML-2026%20Oral-blue.svg)](https://icml.cc/)
-
-
-**From Text to Forecasts: Bridging Modality Gap with Temporal Evolution Semantic Space**
-
-
-*ICML 2026 Oral*
-
-</div>
 
 ## Overview
 
